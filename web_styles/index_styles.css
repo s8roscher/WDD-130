@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Square+Peg&display=swap');
+
+/*site colors pulled from https://coolors.co/dbcdc6-ead7d1-db94b8-7b516f-1f1a38*/
+
+:root{
+    --p_font: 'Amatic SC', 'Square Peg';
+}
+ 
+
+body{
+    background-color:#1F1A38;
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--p_font);
+}
+
+h1{
+    color: #EAD7D1;
+    font: 24px;
+    font-family: var(--p_font);
+    text-align: center;
+}
+
+nav{
+    background-color: #7B516F;
+    color: #EAD7D1;
+    text-align: center;
+    font-family: var(--p_font);
+}
+
+nav  {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  font-family: var(--p_font);
+}
+
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  font-family: var(--p_font);
+}
+
+nav a:link, nav a:visited {
+  color: #EAD7D1;
+  text-align: center;
+  font-family: var(--p_font);
+}
+
+nav a:hover{
+    color: #EAD7D1;
+    background-color: #DB94B8;
+    text-align: center;
+    font-family: var(--p_font);
+}
