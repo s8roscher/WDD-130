@@ -19,6 +19,7 @@ h1{
     font: 24px;
     font-family: var(--p_font);
     text-align: center;
+    margin: 0 auto;
 }
 
 nav{
@@ -26,6 +27,7 @@ nav{
     color: #EAD7D1;
     text-align: center;
     font-family: var(--p_font);
+    font-size: 32px;
 }
 
 nav  {
@@ -33,6 +35,7 @@ nav  {
   display: flex;
   text-align: center;
   font-family: var(--p_font);
+  margin: 0 auto
 }
 
 nav a {
@@ -42,6 +45,7 @@ nav a {
   padding: 10px;
   text-align: center;
   font-family: var(--p_font);
+  margin: 0 auto
 }
 
 nav a:link, nav a:visited {
