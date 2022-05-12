@@ -27,6 +27,14 @@ nav a:hover{
     color: #C1DFF0;
 }
 
+h1{
+    color: #C1DFF0;
+}
+
+h2{
+    color: #C1DFF0;
+}
+
 h4{
     color: #C1DFF0;
 }
@@ -50,12 +58,14 @@ h4{
 }
 
 .book:hover{
-    background-color: #194A4D;
+    background-color: #687E25;
     color: #C1DFF0;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .join:hover{
-    background-color: #194A4D;
+    background-color: #687E25;
     color: #C1DFF0;
 }
 
@@ -90,11 +100,12 @@ main section{
 
 #background{
     height: 725px;
-    background-color: #194A4D;
+    background-color: #687E25;
 }
 
 .msg{
     background-color: #194A4D;
+    color: #C1DFF0;
 }
 
 footer{
@@ -111,5 +122,5 @@ footer a{
 }
 
 footer a:hover{
-    color: #C1DFF0;    
+    color: #2D898B;    
 }
