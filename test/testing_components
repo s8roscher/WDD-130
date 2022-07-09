@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html style="height: 100%">
+<html lang="en-us" style="height: 100%">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css" rel="stylesheet" href="testing_css">
+        <title>Compoment Test</title>
+        <link type="text/css" rel="stylesheet" href="testing_css.css">
     </head>
     <body style="height: 100%">
 
@@ -11,8 +12,7 @@
         <div class="parallax"></div>
 
         <div style="height: 1000px; background-color: navy; font-size: 36px">
-            parallas effect should be working...
+            parallax effect should be working...
         </div>
-
     </body>
 </html>
