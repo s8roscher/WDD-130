@@ -1,8 +1,22 @@
-.parallax{
+/*.parallax{
     background-image: url("milky-way-2695569__480.jpg");
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}*/
+.container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container .container{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    color: grey;
+    width: 100%;
+    padding: 20px;
 }

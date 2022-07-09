@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en-us" style="height: 100%">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
         <title>Compoment Test</title>
-        <link type="text/css" rel="stylesheet" href="testing_css.css">
+        <link rel="stylesheet" href="testing_css.css">
     </head>
     <body style="height: 100%">
 
@@ -13,6 +13,24 @@
 
         <div style="height: 1000px; background-color: navy; font-size: 36px">
             parallax effect should be working...
+        </div>
+    </body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>testing compoments</title>
+        <link rel="stylesheet" href="testing_css.css">
+    </head>
+    <body>
+        <div class="container">
+            <img src="milky-way-2695569__480.jpg" alt="space image" style="width:100%;">
+            <div class="content">
+                <h1>Heading</h1>
+                <p>This is a test okay byeeeee</p>
+            </div>
         </div>
     </body>
 </html>
