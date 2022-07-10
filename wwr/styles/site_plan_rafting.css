@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #194A4D;
-  --secondary-color: #2D898B;
-  --accent1-color: #687E25;
-  --accent2-color: #C1DFF0;
+  --primary-color: #194A4D; /*midnight eagle green, dark blue green*/
+  --secondary-color: #2D898B; /*dark cyan, dark blue*/
+  --accent1-color: #687E25; /*avacado, light green*/
+  --accent2-color: #C1DFF0; /*columbia blue, light blue*/
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Amatic SC", 'Square Peg';
