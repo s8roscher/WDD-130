@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home-page-css">
+    <title>Senior Travel Guide Home</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="home-page">
+            <img class="logo" src="images/logo.png" alt="Senior Travel Guide logo">
+        </a>
+        <nav>
+            <a href="home-page">Home</a>
+            <a href="destinations">Destinations</a>
+            <a href="location-info">Location Info</a>
+            <a href="faqs">FAQs</a>
+        </nav>
+    </header>
+</body>
+</html>

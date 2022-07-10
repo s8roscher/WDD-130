@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Martel+Sans:wght@600&family=Poppins:wght@500&family=Varela&display=swap');
+
+:root {
+  --primary-color: #423E5B;
+  --secondary-color: #A3C4BC;
+  --accent1-color: #D3D1D8;
+  --accent2-color: #523600;
+
+  --heading-font: "Martel Sans";
+  --paragraph-font: "Martel Sans", Helvetica, sans-serif;
+
+  --headline-color-on-white: #423e5b;  /* headlines on a white background */ 
+  --headline-color-on-color: #a3c4bc; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #523600; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #d3d1d8; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #423e5b;
+  --nav-link-color: #d3d1d8;
+  --nav-background-color: #423e5b;
+  --nav-hover-link-color: #a3c4bc;
+  --nav-hover-background-color: #523600;
+}
+
+/*Main face of the page*/
+/*note to self: the grid needs to be an odd number across, like 7, 9, or 11*/
+/*other note to self: sort out the scrolling image thing, 
+also make sure you're not trying to fit the whole image in the elongated part of the home page gallery, 
+just the bottom part, so cut it off in the image or do it with code.*/
+
+header{
+    background-color: #423E5B;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a{
+    background-color: var(--nav-background-color);
+    text-align: center;
+    justify-content: space-around;
+}
+
+/*button and link interaction*/
+
+/*classes*/
+
+/*ids*/
