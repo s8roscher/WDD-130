@@ -19,5 +19,38 @@
             <a href="faqs">FAQs</a>
         </nav>
     </header>
+    <main>
+        <section id="home-top">
+            <img src="" alt="">
+            <div id="">
+                <h2>Start Planning Your Trip!</h2>
+            </div>
+            <div id="home-info">
+
+            </div>
+        </section>
+        <div id="home-usa">
+            <img src="" alt="Travel USA">
+        </div>
+        <div id="home-mexico">
+            <img src="" alt="Travel Mexico">
+        </div>
+        <div id="home-europe">
+            <img src="" alt="Travel Europe">
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="home-page">Home</a>
+            <a href="destinations">Destinations</a>
+            <a href="location-info">Location Info</a>
+            <a href="faqs">FAQs</a>
+            <a href="s8roscher@gmail.com">Contact Us</a>
+        </nav>
+        <div>
+            <!--copyright and stuff-->
+            <img src="" alt="">
+        </div>
+    </footer>
 </body>
 </html>

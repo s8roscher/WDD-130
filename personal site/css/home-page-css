@@ -21,7 +21,7 @@
 }
 
 /*Main face of the page*/
-/*note to self: the grid needs to be an odd number across, like 7, 9, or 11*/
+/*note to self: the grid for the main needs to be 5ths*/
 /*other note to self: sort out the scrolling image thing, 
 also make sure you're not trying to fit the whole image in the elongated part of the home page gallery, 
 just the bottom part, so cut it off in the image or do it with code.*/
@@ -37,8 +37,14 @@ nav a{
     justify-content: space-around;
 }
 
+main{
+    display: grid;
+}
+
 /*button and link interaction*/
 
 /*classes*/
 
 /*ids*/
+
+/*REMINDER: get the travel photos from ally and meg TODAY!*/
