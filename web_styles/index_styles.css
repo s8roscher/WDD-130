@@ -30,7 +30,7 @@ nav{
     font-size: 32px;
 }
 
-nav  {
+nav{
   list-style-type: none;
   display: flex;
   text-align: center;
@@ -60,3 +60,31 @@ nav a:hover{
     text-align: center;
     font-family: var(--p_font);
 }
+
+#navbar{
+  overflow: hidden;
+  background-color: #7B516F;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a{
+  float: left;
+  color:#DB94B8;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: var(--p_font);
+}
+
+#navbar #space{
+  font-size: 32px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
