@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/home-page-css">
+    <link rel="stylesheet" href="css/home-page-css.css">
     <title>Senior Travel Guide Home</title>
 </head>
 <body>
     <header>
-        <a id="logo_link" href="home-page">
+        <a id="logo_link" href="home-page.html">
             <img class="logo" src="images/logo.png" alt="Senior Travel Guide logo">
         </a>
         <nav>
-            <a href="home-page">Home</a>
-            <a href="destinations">Destinations</a>
-            <a href="location-info">Location Info</a>
-            <a href="faqs">FAQs</a>
+            <a href="home-page.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="location-info.html">Location Info</a>
+            <a href="faqs.html">FAQs</a>
         </nav>
     </header>
     <main>
@@ -29,15 +29,17 @@
 
             </div>
         </section>
-        <div id="home-usa">
-            <img src="" alt="Travel USA">
-        </div>
-        <div id="home-mexico">
-            <img src="" alt="Travel Mexico">
-        </div>
-        <div id="home-europe">
+        <section id="regions">
+            <div id="home-usa">
+               <img src="" alt="Travel USA">
+            </div>
+            <div id="home-mexico">
+                <img src="" alt="Travel Mexico">
+            </div>
+            <div id="home-europe">
             <img src="" alt="Travel Europe">
-        </div>
+            </div>
+        </section>
     </main>
     <footer>
         <nav>
