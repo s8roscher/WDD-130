@@ -29,7 +29,17 @@ just the bottom part, so cut it off in the image or do it with code.*/
 header{
     background-color: #423E5B;
     color:#D3D1D8;
+    font: var(--heading-font);
 }
+
+main{
+    font: var(--paragraph-font);
+}
+
+footer{
+    font: var(--paragraph-font);
+}
+
 nav a{
     background-color: var(--nav-background-color);
     text-align: center;
