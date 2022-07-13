@@ -28,8 +28,7 @@ just the bottom part, so cut it off in the image or do it with code.*/
 
 header{
     background-color: #423E5B;
-    display: grid;
-    grid-template-columns: 150px auto;
+    color:#D3D1D8;
 }
 nav a{
     background-color: var(--nav-background-color);
@@ -69,4 +68,60 @@ main{
     grid-column: 1/2;
 }
 
-/*REMINDER: get the travel photos from ally and meg TODAY!*/
+/*sticky nav bar*/
+
+#navbar{
+    overflow: hidden;
+    background-color: #423E5B;
+    padding: 90px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+#navbar a{
+    float: left;
+    color: #D3D1D8;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#navbar #logo_link{
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#navbar a:hover{
+    background-color: #523600;
+    color: #A3C4BC;
+}
+
+#navbar a.active{
+    background-color: #523600;
+    color: #D3D1D8;
+}
+
+#navbar-right{
+    float: right;
+}
+
+@media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important; 
+    }
+
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    #navbar-right {
+      float: none;
+    }
+  }
