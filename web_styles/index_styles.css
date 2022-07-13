@@ -80,6 +80,7 @@ nav a:hover{
   text-decoration: none;
   font-size: 32px;
   font-family: var(--p_font);
+  line-height: 25px;
 }
 
 #navbar #space{
@@ -88,3 +89,30 @@ nav a:hover{
   transition: 0.4s;
 }
 
+#navbar a:hover{
+  background-color: #DB94B8;
+  color: #EAD7D1;
+}
+
+#navbar a.active{
+  background-color: #7B516F;
+  color: #EAD7D1;
+}
+
+#navbar-right{
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right{
+    float: none;
+  }
+}
