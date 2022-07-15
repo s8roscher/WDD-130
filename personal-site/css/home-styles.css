@@ -85,7 +85,7 @@ main{
     background-color: #423E5B;
     padding: 90px 10px;
     transition: 0.4s;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 99;

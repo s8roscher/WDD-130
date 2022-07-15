@@ -7,29 +7,69 @@
     <link rel="stylesheet" href="css/faqs-styles.css">
     <script src="java-script/faqs-page.js"></script>
 </head>
-<main>
-    <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-            <li>
-                <label for="name">Name: </label>
-                <input type="text" value="username" id="name"
-                name="user_name">
-            </li>
-            <li>
-                <label for="mail">Email: </label>
-                <input type="email" value="your-email@email.com" id="mail"
-                name="user_email">
-            </li>
-            <li>
-               <label for="msg">Message: </label>
-               <textarea id="msg"
-               name="user_message">Enter text here.</textarea> 
-            </li>
-            <li>
-                <button type="submit">Send Message</button>
-            </li>
-        </ul>
-    </form>
-</main>
+<body>
+    <header class="navbar">
+        <a id="logo_link" href="home-page.html">
+            <img class="logo" src="css/assets/logo-1.png" alt="Senior Travel Guide logo">
+        </a>
+        <nav id="navbar-right">
+            <a href="home-page.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="faqs.html">FAQs</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h3 class="title">Is this just a blog?</h3>
+                <p>While this page is based off of personal experiences, this isn't just a blog! It a travel guide site, meaning if you have questions or concerns about a site, we can answer your questions to help you plan our your own travel adventure.</p>
+            </div>
+            <div>
+                <h3 class="title">Where have you been?</h3>
+                <p>Our family has been to over 15 countries, and many locations we frequent. We've also traveled to most national parks in the United States, as well as all other fun and momumental locations within the States.</p>
+            </div>
+            <div>
+                <h3 class="title">Why is is called 'Senior Travel Guide'?</h3>
+                <p>This site is based off of my personal experieces as an older gentleman, hence the senior part in the name. *Editors Note* We tried getting him to come up with a better name, but he ended up going with a simple decription.</p>
+            </div>
+            </section>
+        <div id="feedback"></div>
+        <h2>Have questions? Contact us and we'll get with you to help</h2>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name: </label>
+                    <input type="text" value="username" id="name"
+                    name="user_name">
+                </li>
+                <li>
+                    <label for="mail">Email: </label>
+                    <input type="email" value="your-email@email.com" id="mail"
+                    name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message: </label>
+                    <textarea id="msg"
+                    name="user_message">Enter text here.</textarea> 
+                </li>
+                <li>
+                    <button type="submit">Send Message</button>
+                </li>
+            </ul>
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <a href="home-page">Home</a>
+            <a href="destinations">Destinations</a>
+            <a href="location-info">Location Info</a>
+            <a href="faqs">FAQs</a>
+            <a href="s8roscher@gmail.com">Contact Us</a>
+        </nav>
+        <div>
+            <!--copyright and stuff-->
+            <img src="" alt="">
+        </div>
+    </footer>
+</body>
 </html>
