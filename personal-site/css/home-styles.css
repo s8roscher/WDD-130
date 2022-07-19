@@ -116,18 +116,16 @@ main{
 
 img{
     border: 5px solid #D3D1D8;
+    width: 100%;
+    height: auto;
   }
-
-/*button and link interaction*/
-
-/*classes*/
-
-/*ids*/
-
-#logo{
+  
+  #logo{
     border-radius: 50%;
     margin: 10px;
-}
+    width: 200px;
+    height: auto;
+  }
 
 #regions{
     grid-row: 1/4;

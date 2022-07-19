@@ -30,6 +30,16 @@ main{
   font: var(--paragraph-font);
 }
 
+.intro-paragraph{
+  color: #423E5B;
+}
+
+#top-prargraph{
+  color: #423E5B;
+  background-color: #D3D1D8;
+  text-align: center;
+}
+
 footer{
   font: var(--paragraph-font);
   background-color: #423E5B;
@@ -45,13 +55,17 @@ nav a{
   justify-content: center;
 }
 
+img{
+  border: 5px solid #D3D1D8;
+  width: 100%;
+  height: auto;
+}
+
 #logo{
   border-radius: 50%;
   margin: 10px;
-}
-
-img{
-  border: 5px solid #D3D1D8;
+  width: 200px;
+  height: auto;
 }
 
 .tab {
@@ -98,7 +112,17 @@ img{
   }
 
   /*classes*/
-.info-image-1 .info-image-2 .info-image-3{
-  width: 10px;
+.info-image-1{
+  width: 200px;
+  height: auto;
+}
+
+.info-image-2{
+  width: 250px;
+  height: auto;
+}
+
+.info-image-3{
+  width: 300px;
   height: auto;
 }

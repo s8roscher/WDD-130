@@ -37,12 +37,16 @@ footer{
 
 img{
     border: 5px solid #D3D1D8;
+    width: 100%;
+    height: auto;
   }
-
-#logo{
+  
+  #logo{
     border-radius: 50%;
     margin: 10px;
-}
+    width: 200px;
+    height: auto;
+  }
 
 nav a{
     background-color: var(--nav-background-color);
