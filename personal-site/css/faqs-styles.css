@@ -32,6 +32,16 @@ main{
 
 footer{
     font: var(--paragraph-font);
+    background-color: #423E5B;
+}
+
+img{
+    border: 5px solid #D3D1D8;
+  }
+
+#logo{
+    border-radius: 50%;
+    margin: 10px;
 }
 
 nav a{
@@ -39,6 +49,9 @@ nav a{
     text-align: center;
     justify-content: space-around;
     color: var(--nav-link-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 form{

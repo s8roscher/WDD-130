@@ -32,6 +32,7 @@ main{
 
 footer{
   font: var(--paragraph-font);
+  background-color: #423E5B;
 }
 
 nav a{
@@ -39,6 +40,18 @@ nav a{
   text-align: center;
   justify-content: space-around;
   color: var(--nav-link-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo{
+  border-radius: 50%;
+  margin: 10px;
+}
+
+img{
+  border: 5px solid #D3D1D8;
 }
 
 .tab {
@@ -46,6 +59,8 @@ nav a{
     border: 1px solid var(--secondary-color);
     background-color: var(--headline-color-on-white);
     color: var(--headline-color-on-color);
+    float: center;
+    justify-items: center;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -81,3 +96,9 @@ nav a{
     background-color: #A3C4BC;
     color: #423E5B;
   }
+
+  /*classes*/
+.info-image-1 .info-image-2 .info-image-3{
+  width: 10px;
+  height: auto;
+}
