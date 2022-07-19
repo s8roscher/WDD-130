@@ -9,19 +9,16 @@
     <title>Senior Travel Guide Home</title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <a id="logo_link" href="home-page.html">
-                <img id="logo" src="css/assets/logo-1.png" alt="Senior Travel Guide logo">
-            </a>
-            <nav id="navbar-right">
-                <a href="home-page.html">Home</a>
-                <a href="destinations.html">Destinations</a>
-                <a href="location-info.html">Location Info</a>
-                <a href="faqs.html">FAQs</a>
-            </nav>
-        </div>
-    </header>
+    <header class="navbar">
+        <nav id="header-nav">
+          <a id="logo_link" href="home-page.html">
+              <img id="logo" src="css/assets/logo-1.png" alt="Senior Travel Guide logo">
+          </a>
+          <a class="home" href="home-page.html">Home</a>
+          <a class="destinations" href="destinations.html">Destinations</a>
+          <a class="faqs" href="faqs.html">FAQs</a>
+        </nav>
+      </header>
     <main>
         <section id="home-top">
             <img src="" alt="">
@@ -38,13 +35,22 @@
         </section>
         <section id="regions">
             <div id="home-usa">
-               <img src="" alt="Travel USA">
+                <a href="destinations.html">
+                    <img id="gardens" src="css/assets/images/USA/Alaska/20220705_151342.jpg" alt="Travel USA">
+                    <div class="text-on-image">Travel USA</div>
+                </a>
             </div>
             <div id="home-mexico">
-                <img src="" alt="Travel Mexico">
+                <a href="destinations.html">
+                    <img id="sunset" src="css/assets/images/Mexico/puerto-vallarta/20211219_180524.jpg" alt="Travel Mexico">
+                    <div class="text-on-image">Travel Mexico</div>
+                </a>
             </div>
             <div id="home-europe">
-            <img src="" alt="Travel Europe">
+                <a href="destinations.html">
+                    <img id="castle" src="css/assets/images/Europe/england/P1010770.jpg" alt="Travel Europe">
+                    <div class="text-on-image">Travel Europe</div>
+                </a>
             </div>
         </section>
     </main>

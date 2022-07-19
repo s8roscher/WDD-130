@@ -10,19 +10,21 @@
 </head>
 <body>
     <header class="navbar">
+      <nav id="header-nav">
         <a id="logo_link" href="home-page.html">
             <img id="logo" src="css/assets/logo-1.png" alt="Senior Travel Guide logo">
         </a>
-        <nav id="navbar-right">
-            <a href="home-page.html">Home</a>
-            <a href="destinations.html">Destinations</a>
-            <a href="faqs.html">FAQs</a>
-        </nav>
+        <a class="home" href="home-page.html">Home</a>
+        <a class="destinations" href="destinations.html">Destinations</a>
+        <a class="faqs" href="faqs.html">FAQs</a>
+      </nav>
     </header>
     <main>
-      <section id="top-paragraph">
-        <h1 class="intro-paragraph">Choose Your Adventure!</h1>
-        <p class="intro-paragraph">Select a location to learn more about what we recommend as far as sights to see, food to eat, and places to rest up after your eventful days!</p>
+      <section>
+        <div id="top-paragraph">
+          <h1 class="intro-paragraph">Choose Your Adventure!</h1>
+          <p class="intro-paragraph">Select a location to learn more about what we recommend as far as sights to see, food to eat, and places to rest up after your eventful days!</p>
+        </div>
       </section>
         <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'Moab')">Moab, Utah</button>
@@ -36,7 +38,7 @@
           <!-- Tab content -->
           <div id="Moab" class="tabcontent">
             <h1>Moab, Utah</h1>
-            <div class="text-wrap">
+            <div>
               <h2>Things to do:</h2>
                 <p>Moab has numberous trails for hikers, bikes, horses, and off-raod vehicles that reward the adventurer with a beautiful view and some spectaculor natural rock formations in bright red rocks.</p>
                 <p>Delicate Arch: moderate challenge, 3 miles.</p>
@@ -47,13 +49,15 @@
                 <p>Sand Dune Arch: easy, sandy trail, 0.2 miles.</p>
                 <p>Double Arch Trail: easy, 0.6 miles.</p>
             </div>
+            <h2>Gallery</h2>
             <img class="info-image-1" src="css/assets/images/USA/moab/DSC01101.jpg" alt="delicate arch">
             <img class="info-image-2" src="css/assets/images/USA/moab/DSC00955.jpg" alt="double arch">
             <img class="info-image-3" src="css/assets/images/USA/moab/DSC01060.jpg" alt="canyon view">
             <h2>Day Trips</h2>
               <p>Doing several hikes in one day is fun, but if you want more of a full day excursion, this is what we would recomend.</p>
               <p>Needles, Eye of the Whale, Newspaper Rock, Canyonlands, Dead Horse Point, Fort Bluff.</p>
-
+            <h2>Food Recomendations</h2>
+              <p>There are several local places that we love to eat at! The Moab Diner is an old school establishment that serves a mean burger and breakfast all day. If you're looking for something different than your All-American food, there are other great options on top of the food truck located in the national park.</p>
           </div>
           
           <div id="Alaska" class="tabcontent">
@@ -82,11 +86,10 @@
           </div>
     </main>
     <footer>
-        <nav>
-            <a href="home-page.html">Home</a>
-            <a href="destinations.html">Destinations</a>
-            <a href="faqs.html">FAQs</a>
-            <a href="s8roscher@gmail.com">Contact Us</a>
+        <nav id="footer-nav">
+            <a class="home" href="home-page.html">Home</a>
+            <a class="destinations" href="destinations.html">Destinations</a>
+            <a class="faqs" href="faqs.html">FAQs</a>
         </nav>
         <div>
             <!--copyright and stuff-->

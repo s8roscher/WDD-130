@@ -24,35 +24,63 @@ header{
   background-color: #423E5B;
   color:#D3D1D8;
   font: var(--heading-font);
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
 }
 
-main{
+body{
   font: var(--paragraph-font);
+  background-image: url(assets/images/mexico/caribbean/DSCN0036.jpg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .intro-paragraph{
   color: #423E5B;
+  width: 60%;
+  justify-self: center;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #D3D1D8;
+  padding: 10px;
 }
 
 #top-prargraph{
   color: #423E5B;
   background-color: #D3D1D8;
   text-align: center;
+  margin: auto;
 }
 
 footer{
   font: var(--paragraph-font);
   background-color: #423E5B;
+  width: 100%;
 }
 
 nav a{
   background-color: var(--nav-background-color);
-  text-align: center;
-  justify-content: space-around;
   color: var(--nav-link-color);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#header-nav{
+  background-color: #423E5B;
+  overflow: hidden;
+}
+
+#header-nav a{
+  float: left;
+  color: #D3D1D8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 img{
@@ -75,6 +103,8 @@ img{
     color: var(--headline-color-on-color);
     float: center;
     justify-items: center;
+    margin: auto;
+    width: 70%;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -109,6 +139,9 @@ img{
     border-top: none;
     background-color: #A3C4BC;
     color: #423E5B;
+    width: 75%;
+    float: center;
+    margin: auto;
   }
 
   /*classes*/
