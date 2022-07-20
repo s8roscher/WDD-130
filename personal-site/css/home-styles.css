@@ -241,3 +241,8 @@ h3{
     color:#423E5B;
     background-color: #D3D1D8BF;
 }
+
+#small-text{
+    font-size: 10px;
+    color: #D3D1D8;
+  }

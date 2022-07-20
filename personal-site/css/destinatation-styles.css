@@ -41,7 +41,7 @@ body{
 
 .intro-paragraph{
   color: #423E5B;
-  width: 60%;
+  width: 75%;
   justify-self: center;
   text-align: center;
   margin: 10px auto;
@@ -64,32 +64,29 @@ footer{
 
 nav a{
   background-color: var(--nav-background-color);
+  text-align: center;
+  justify-content: space-around;
   color: var(--nav-link-color);
   display: flex;
-  width: 75%;
-  margin: 0 auto;
-}
-
-#header-nav{
-  background-color: #423E5B;
-  overflow: hidden;
-}
-
-#header-nav a{
-  float: left;
-  color: #D3D1D8;
-  text-align: center;
-  padding: 14px 16px;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
+  margin: 25px;
+  padding: 10x;
+}
+
+nav a:hover{
+  color: #A3C4BC;
 }
 
 img{
-  border: 5px solid #D3D1D8;
+  border: 5px solid #523600;
   width: 100%;
   height: auto;
 }
 
 #logo{
+  border: 5px solid #D3D1D8;
   border-radius: 50%;
   margin: 10px;
   width: 200px;
@@ -145,16 +142,54 @@ img{
 
   /*classes*/
 .info-image-1{
-  width: 200px;
+  width: 360px;
   height: auto;
 }
 
 .info-image-2{
-  width: 250px;
+  width: 360px;
   height: auto;
 }
 
 .info-image-3{
+  width: 360px;
+  height: auto;
+}
+
+.food-1{
+  width: 250px;
+  height: auto;
+  margin: 8px;
+  justify-self: center;
+}
+
+.food-2{
   width: 300px;
   height: auto;
+  margin: 8px;
+  justify-self: center;
+}
+
+.food-3{
+  width: 200px;
+  height: auto;
+  margin: 8px;
+  justify-self: center;
+}
+
+.food-4{
+  width: 250px;
+  height: auto;
+  margin: 8px;
+  justify-self: center;
+}
+
+.centered-food{
+  margin: auto;
+  float: center;
+}
+
+#small-text{
+  font-size: 10px;
+  color: #D3D1D8;
 }
