@@ -28,6 +28,8 @@ header{
 
 main{
     font: var(--paragraph-font);
+    width: 80%;
+    background-image: url();
 }
 
 footer{
@@ -59,7 +61,7 @@ nav a{
 }
 
 form{
-    margin: 0 auto;
+    margin: 25px auto;
     width: 400px;
     padding: 1em;
     border: 1px solid #423E5B;
@@ -114,6 +116,7 @@ button{
     right: 0;
     padding: .5em;
     display: none;
+    margin: 25px;
 }
 
 .movedown{

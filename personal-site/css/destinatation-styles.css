@@ -31,7 +31,11 @@ header{
 
 body{
   font: var(--paragraph-font);
-  background-image: url(assets/images/mexico/caribbean/DSCN0036.jpg);
+  background-image: url(assets/images/Mexico/caribbean/DSCN0036.jpg);
+  width: 100%;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
   min-height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -59,7 +63,8 @@ body{
 footer{
   font: var(--paragraph-font);
   background-color: #423E5B;
-  width: 100%;
+  padding: 50px;
+  margin-top: 25px;
 }
 
 nav a{
