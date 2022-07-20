@@ -98,7 +98,6 @@ img{
 
 .tab {
     overflow: hidden;
-    border: 1px solid var(--secondary-color);
     background-color: var(--headline-color-on-white);
     color: var(--headline-color-on-color);
     float: center;
