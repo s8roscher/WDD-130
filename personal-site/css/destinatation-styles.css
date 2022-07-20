@@ -49,22 +49,24 @@ body{
   justify-self: center;
   text-align: center;
   margin: 10px auto;
-  background-color: #D3D1D8;
+  background-color: #D3D1D8CC;
   padding: 10px;
+  border-radius: 10px;
 }
 
 #top-prargraph{
   color: #423E5B;
-  background-color: #D3D1D8;
+  background-color: #D3D1D8CC;
   text-align: center;
   margin: auto;
+  border-radius: 10px;
 }
 
 footer{
   font: var(--paragraph-font);
   background-color: #423E5B;
   padding: 50px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 nav a{
@@ -100,12 +102,13 @@ img{
 
 .tab {
     overflow: hidden;
-    background-color: var(--headline-color-on-white);
+    background-color: #423E5BCC;
     color: var(--headline-color-on-color);
     float: center;
     justify-items: center;
     margin: auto;
     width: 70%;
+    border-radius: 10px;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -138,11 +141,12 @@ img{
     padding: 6px 12px;
     border: 1px solid var(--secondary-color);
     border-top: none;
-    background-color: #A3C4BC;
+    background-color: #A3C4BCCC;
     color: #423E5B;
     width: 75%;
     float: center;
     margin: auto;
+    border-radius: 10px;
   }
 
   /*classes*/

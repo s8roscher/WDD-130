@@ -65,7 +65,8 @@ main{
 h2{
     color: #D3D1D8;
     text-align: center;
-    background-color: #423E5B;
+    background-color: #423E5BCC;
+    border-radius: 10px;
 }
 
 footer{
@@ -183,10 +184,12 @@ img{
 
 h1{
     text-align: center;
+    border-radius: 10px;
 }
 
 h3{
     text-align: center;
+    border-radius: 1-px;
 }
 
 #home-top{
@@ -200,6 +203,7 @@ h3{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 
 #choose-destination{
@@ -211,8 +215,9 @@ h3{
     max-width: 80%;
     height: auto;
     margin: auto;
-    background-color: #A3C4BC;
+    background-color: #A3C4BCCC;
     padding: 25px;
+    border-radius: 10px;
 }
 
 #regions{

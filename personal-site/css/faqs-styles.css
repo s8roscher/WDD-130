@@ -26,15 +26,37 @@ header{
     font: var(--heading-font);
 }
 
-main{
+body{
     font: var(--paragraph-font);
+    margin: auto;
+    background-image: url(assets/images/USA/maui/20210722_080613.jpg);
+    width: 100%;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #D3D1D8;
+}
+
+main{
     width: 80%;
-    background-image: url();
+    margin: 10px auto;
+}
+
+#colored-background{
+    background-color: #423E5BCC;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 footer{
     font: var(--paragraph-font);
     background-color: #423E5B;
+    margin-bottom: 10px auto;
 }
 
 img{
@@ -50,7 +72,7 @@ img{
     height: auto;
   }
 
-nav a{
+  nav a{
     background-color: var(--nav-background-color);
     text-align: center;
     justify-content: space-around;
@@ -58,6 +80,16 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    margin: 25px;
+    padding: 10x;
+  }
+
+h2{
+    background-color: #423E5BCC;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
 }
 
 form{
@@ -66,6 +98,8 @@ form{
     padding: 1em;
     border: 1px solid #423E5B;
     border-radius: 1em;
+    background-color: #A3C4BC;
+    color: #523600;
 }
 
 ul{
@@ -105,7 +139,15 @@ textarea{
 }
 
 button{
+    font-size: medium;
     margin-left: .5em;
+    color: #423E5B;
+    background-color: #D3D1D8;
+}
+
+button:hover{
+    background-color: #423E5B;
+    color: #A3C4BC;
 }
 
 #feedback{
