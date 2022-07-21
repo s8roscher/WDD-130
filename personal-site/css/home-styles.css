@@ -30,13 +30,16 @@ header{
     background-color: #423E5B;
     color:#D3D1D8;
     font: var(--heading-font);
-    /*width: 100%;*/
-    padding: 50px;
-}
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+    text-align: center;
+  }
 
 body{
     background-color: #A3C4BC;
     color: #423E5B;
+    max-width: 100%;
 }
 
 #friendly-faces{
@@ -72,11 +75,12 @@ h2{
 footer{
     font: var(--paragraph-font);
     background-color: #423E5B;
-    padding: 50px;
-    /*width: 100%;*/
-}
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
 
-nav a{
+  nav a{
     background-color: var(--nav-background-color);
     text-align: center;
     justify-content: space-around;
@@ -84,11 +88,42 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    display: grid;
     text-decoration: none;
-    grid-template-rows: auto;
-    margin-top: none;
-}
+    margin: 25px;
+    padding: 10x;
+  }
+
+  .decor{
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #D3D1D8;
+    width: 20%;
+  }
+  
+  #home{
+    margin: auto;
+    float: none;
+    display: inline-block;
+  }
+  
+  #destinations{
+    margin: auto;
+    float: none;
+    display: inline-block;
+  }
+  
+  #faqs{
+    margin: auto;
+    float: none;
+    display: inline-block;
+    
+  }
+  
+  
+  .decor:hover{
+    color: #A3C4BC;
+    border: 3px solid #A3C4BC;
+  }
 
 img{
     border: 5px solid #D3D1D8;
@@ -180,6 +215,8 @@ img{
     background-color: #D3D1D8BF;
     width: 100%;
     font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h1{

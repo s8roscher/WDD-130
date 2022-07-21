@@ -24,7 +24,11 @@ header{
     background-color: #423E5B;
     color:#D3D1D8;
     font: var(--heading-font);
-}
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+    text-align: center;
+  }
 
 body{
     font: var(--paragraph-font);
@@ -44,7 +48,7 @@ body{
 
 main{
     width: 80%;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 #colored-background{
@@ -56,7 +60,9 @@ main{
 footer{
     font: var(--paragraph-font);
     background-color: #423E5B;
-    margin-bottom: 10px auto;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 img{
@@ -83,6 +89,38 @@ img{
     text-decoration: none;
     margin: 25px;
     padding: 10x;
+  }
+
+  .decor{
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #D3D1D8;
+    width: 20%;
+  }
+  
+  #home{
+    margin: auto;
+    float: none;
+    display: inline-block;
+  }
+  
+  #destinations{
+    margin: auto;
+    float: none;
+    display: inline-block;
+  }
+  
+  #faqs{
+    margin: auto;
+    float: none;
+    display: inline-block;
+    
+  }
+  
+  
+  .decor:hover{
+    color: #A3C4BC;
+    border: 3px solid #A3C4BC;
   }
 
 h2{

@@ -24,9 +24,11 @@ header{
   background-color: #423E5B;
   color:#D3D1D8;
   font: var(--heading-font);
-  width: 100%;
   display: grid;
   grid-template-columns: auto;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
 }
 
 body{
@@ -41,6 +43,24 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+.border{
+  text-align: center;
+  border: 5px solid #523600;
+  width: 60%;
+  padding: 10px;
+  float: center;
+  margin: auto;
+}
+
+h3{
+  text-align: center;
+  border: 2px solid #523600;
+  width: 30%;
+  padding: 10px;
+  float: center;
+  margin: auto;
 }
 
 .intro-paragraph{
@@ -65,8 +85,9 @@ body{
 footer{
   font: var(--paragraph-font);
   background-color: #423E5B;
-  padding: 50px;
-  margin-top: 10px;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
 }
 
 nav a{
@@ -78,12 +99,40 @@ nav a{
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  margin: 25px;
-  padding: 10x;
+  padding: 5px;
+  margin: auto;
 }
 
-nav a:hover{
+.decor{
+  margin: auto;
+  padding: 10px;
+  border: 3px solid #D3D1D8;
+  width: 20%;
+}
+
+#home{
+  margin: auto;
+  float: none;
+  display: inline-block;
+}
+
+#destinations{
+  margin: auto;
+  float: none;
+  display: inline-block;
+}
+
+#faqs{
+  margin: auto;
+  float: none;
+  display: inline-block;
+  
+}
+
+
+.decor:hover{
   color: #A3C4BC;
+  border: 3px solid #A3C4BC;
 }
 
 img{
@@ -109,43 +158,47 @@ img{
     margin: auto;
     width: 70%;
     border-radius: 10px;
+    text-align: center;
   }
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
-    background-color: inherit;
-    float: left;
+    background-color: #423E5BCC;
+    float: center;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
     color: #D3D1D8;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: #A3C4BC;
+    background-color: #A3C4BCCC;
     color: #523600;
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: var(--secondary-color);
+    background-color: #A3C4BCCC;
     color: #523600;
   }
   
   /* Style the tab content */
   .tabcontent {
     display: none;
-    padding: 6px 12px;
+    padding: 2em;
     border: 1px solid var(--secondary-color);
     border-top: none;
     background-color: #A3C4BCCC;
     color: #423E5B;
     width: 75%;
     float: center;
-    margin: auto;
+    margin: 25px;
     border-radius: 10px;
   }
 
